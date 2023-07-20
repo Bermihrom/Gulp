@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/Bermihrom/Gulp#readme",
   "devDependencies": {
+    "del": "^6.1.1",
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
   }
 }
