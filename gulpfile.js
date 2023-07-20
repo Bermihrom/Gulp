@@ -1,19 +1,21 @@
 import gulp from "gulp";
 
-import { path } from "./docs/config/path.js";
+import { path } from "./gulp/config/path.js";
 
 global.app = {
     path: path,
-    gulp:gulp
+    gulp: gulp,
 }
 
 
-import { copy } from "./docs/task/copy.js";
-import { reset } from "./docs/task/reset.js";
+import { copy } from "./gulp/task/copy.js";
+import { reset } from "./gulp/task/reset.js";
+
 
 function watcher(){
     gulp.watch(path.watch.files, copy)
 }
+
 const dev = gulp.series(reset, copy, watcher);
 
-gulp.task('defualt', dev);
+gulp.task('default', dev);
