@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Bermihrom/Gulp/issues"
   },
-  "homepage": "https://github.com/Bermihrom/Gulp#readme"
+  "homepage": "https://github.com/Bermihrom/Gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
