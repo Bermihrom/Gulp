@@ -9,5 +9,6 @@ global.app = {
 
 
 import { copy } from "./docs/task/copy.js";
+import { reset } from "./docs/task/reset.js";
 
 gulp.task('defualt', copy);
