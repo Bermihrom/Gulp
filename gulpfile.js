@@ -9,5 +9,9 @@ global.app = {
 
 
 import { copy } from "./docs/task/copy.js";
+function watcher(){
+    gulp.watch(path.watch.files, copy)
+}
+const dev = gulp.series(copy, watcher);
 
-gulp.task('defualt', copy);
+gulp.task('defualt', dev);
