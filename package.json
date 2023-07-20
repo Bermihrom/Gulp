@@ -1,9 +1,24 @@
 {
-  "devDependencies": {
-    "del": "^7.0.0",
-    "gulp": "^4.0.2"
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "gulp-cli": "^2.3.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bermihrom/Gulp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bermihrom/Gulp/issues"
+  },
+  "homepage": "https://github.com/Bermihrom/Gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
