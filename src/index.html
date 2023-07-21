@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../docs/css/main.css">
-  <title>Gulp</title>
-</head>
+  @@include('html/head.html', {
+    "title": "Main"
+  })
 
 <body>
+  @@include('html/header.html', {})
+  <img src="img/A long earthen  1.png" alt="Where is the picture?">
   <h1>************  Hi there! ************</h1>
+  @@include('html/footer.html', {})
   <script src = "./js/all.js"></script>
 </body>
 </html>
