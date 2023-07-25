@@ -2,6 +2,7 @@ import replace from "gulp-replace"
 import plumber from "gulp-plumber"
 import notify from "gulp-notify"
 import browserSync from "browser-sync"
+import gulpIf from "gulp-if"
 
 
 
@@ -10,4 +11,5 @@ export const plugins = {
     plumber: plumber,
     notify: notify,
     browserSync: browserSync,
+    gulpIf: gulpIf,
 }
