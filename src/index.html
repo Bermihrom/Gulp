@@ -5,17 +5,20 @@
   })
 
 <body>
-  @@include('html/header.html', {})
-  
-  
-  <img src="@img/a_long_earthen__1.png" alt="">
-  <h1>************  Hi there! ************</h1>
-  
-  
-  
-  
-  
-  @@include('html/footer.html', {})
-  <script src = "./js/all.js"></script>
+  @@include('html/grid.html', {})
+  <div class="wrapper">
+    @@include('html/header.html', {})
+    
+    
+    <img src="@img/a_long_earthen__1.png" alt="">
+    <h1>************  Hi there! ************</h1>
+    
+    
+    
+    
+    
+    @@include('html/footer.html', {})
+    <script src = "./js/app.min.js"></script>
+  </div>
 </body>
 </html>
