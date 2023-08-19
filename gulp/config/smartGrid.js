@@ -1,10 +1,10 @@
 import smartGrid from "smart-grid"
 
 const settings = {
-    columns: 24,
-    offset: '10px',
+    columns: 12,
+    offset: '15px',
     wrapper: {
-        maxWidth: '960px',
+        maxWidth: '1400px',
         fields: '30px',
     },
     breakPoints: {
@@ -29,4 +29,4 @@ const settings = {
     properties: []
 };
 
-smartGrid(`./src/smart`, settings);
+smartGrid(`../../src/smart`, settings);

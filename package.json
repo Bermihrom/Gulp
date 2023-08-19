@@ -59,5 +59,8 @@
     "gulp-version-number": "^0.2.4",
     "reset-css": "^5.0.2",
     "smart-grid": "^2.1.2"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }

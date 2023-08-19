@@ -1,13 +1,22 @@
 @import (less) "../../node_modules/reset-css/less/reset.less";
-@import (less) "../smart/smart-grid.less";
+@import (less) "smart-grid.less";
 
 .wrapper{
     .wrapper();
 }
 .debug{
-    .debug(rgba(0, 0, 0, 0.5), 1px solid rgb(237, 0, 217));
+    .debug(rgba(0, 0, 0, 0.5), 1px solid rgb(0, 237, 154));
 }
 
-@import (less) "tags.scss";
-@import (less) "parts.css";
+@import (less) "parts/components/parts.less";
+@import (less) "parts/header.less";
+
+@import (less) "parts/screen-1.less";
+
+@import (less) "parts/screen-2.less";
+
+@import (less) "parts/screen-3.less";
+
+@import (less) "parts/screen-4.less";
+
 @import (less) "fonts.less";
